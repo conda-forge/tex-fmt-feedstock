@@ -1,5 +1,5 @@
 context:
-  version: "0.5.4"
+  version: "0.5.5"
 
 package:
   name: tex-fmt
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://github.com/WGUNDERWOOD/tex-fmt/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: 1a1bc787edb6b8f58feb6f0f5f33a6cac04ea583763f6807c6e319d6171b5d4b
+  sha256: 383c1620bf789945b04359127adb222118926eea7576910eb6779fb0dcdf9cdc
 
 build:
-  number: 1
+  number: 0
   script:
     env:
       CARGO_PROFILE_RELEASE_STRIP: symbols
