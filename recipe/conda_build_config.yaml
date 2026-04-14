@@ -1,0 +1,4 @@
+# use latest rust on windows
+# https://conda-forge.zulipchat.com/#narrow/channel/457337-general/topic/.E2.9C.94.20The.20Rust.20compiler.20version.20on.20Windows.20systems.20is.20unstable/near/554682435
+rust_compiler_version:
+  - "*"
